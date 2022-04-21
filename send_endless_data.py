@@ -212,7 +212,7 @@ try:
           while True: 
 
               try:
-                  for item in range(1,MESSAGES_COUNT):
+                  for item in range(0,MESSAGES_COUNT):
 
                       try:
                          server.queue_item(item,str(ARRAY[item] +'\n'))
